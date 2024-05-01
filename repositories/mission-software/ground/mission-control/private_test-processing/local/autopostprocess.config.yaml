@@ -1,0 +1,41 @@
+# Global settings
+google_credentials_file: /config/credentials/credentials.json
+google_credentials_are_service_account: false
+mail_sender: bdavidson@lynk.world
+mail_recipient: bdavidson@lynk.world
+process_files_directory: /data/command_files
+results_directory: /data/results
+tle_directory: /data/tles
+test_site_definitions_sheet_id: 1OhQdaDtucOly7rQ-5jILi1UppESCmIdxrepeI0jJR6s
+population_map_snr_limits: [-3, -5, -10, -15]
+
+# Spacecraft settings
+Lynk_5:
+  tle_prefix: lynktower1
+  test_session_google_drive_folder_id: 1Y6Rpi4OpRg0pR9hnJs57ysLqLNf2N8lG
+  specan_google_drive_folder_id: 1-q_pcRmGZ4FlsGCC5dNGcnS1hOjUM-BJ
+
+Lynk_5_FS:
+  tle_prefix: lynktower1
+  test_session_google_drive_folder_id: 1BBvS0l1NGRx9iATfo6wLUFZTJ1zyoyNZ
+  specan_google_drive_folder_id: 1BBvS0l1NGRx9iATfo6wLUFZTJ1zyoyNZ
+
+LT3:
+  tle_prefix: lynktower3
+  test_session_google_drive_folder_id: 1234
+  specan_google_drive_folder_id: 1234
+
+LT4:
+  tle_prefix: lynktower4
+  test_session_google_drive_folder_id: 1234
+  specan_google_drive_folder_id: 1234
+
+LT5:
+  tle_prefix: lynktower5
+  test_session_google_drive_folder_id: 1234
+  specan_google_drive_folder_id: 1234
+
+LT6:
+  tle_prefix: lynktower6
+  test_session_google_drive_folder_id: 1234
+  specan_google_drive_folder_id: 1234

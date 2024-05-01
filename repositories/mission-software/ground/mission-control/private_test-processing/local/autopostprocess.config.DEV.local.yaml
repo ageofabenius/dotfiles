@@ -1,0 +1,28 @@
+# Global settings
+process_files_directory: /data/command_files
+results_directory: /data/results
+tle_directory: /data/tles
+test_site_definitions_sheet_id: 1OhQdaDtucOly7rQ-5jILi1UppESCmIdxrepeI0jJR6s
+population_map_snr_limits: [-3, -5, -10, -15]
+
+# Spacecraft settings
+Lynk_5:
+  tle_prefix: lynktower1
+
+Lynk_5_FS:
+  tle_prefix: lynktower1
+
+LT3:
+  tle_prefix: lynktower3
+
+LT4:
+  tle_prefix: lynktower4
+
+LT5:
+  tle_prefix: lynktower5
+
+LT6:
+  tle_prefix: lynktower6
+
+LT6_FS:
+  tle_prefix: lynktower6
