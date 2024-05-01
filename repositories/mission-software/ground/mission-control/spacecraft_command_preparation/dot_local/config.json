@@ -1,0 +1,12 @@
+{
+    "test_session_drive_folder_id": "1m2wIaDRQ1q_LmSy7DXh5Iw7pNHvZeL7H",
+    "credentials_dir": ".local/credentials",
+    "test_session_report_email_sender": "bdavidson@lynk.world",
+    "test_session_report_email_recipient": "payload-test-recipients@lynk.world",
+    "shared_drive_id": "0ACTc2Y8fWiGAUk9PVA",
+    "yaml_download_dir": ".local/yamls",
+    "test_run_list_id": "1dNO57rpYTDDMt5a_0ZjnJynTB4z2tDKRzA_qdstqyVs",
+    "test_sites_google_sheet_id": "1OhQdaDtucOly7rQ-5jILi1UppESCmIdxrepeI0jJR6s",
+    "mos_api_url": "https://api.mos.hq.lynk.world/rest/v1",
+    "mos_auth_url": "https://auth.mos.hq.lynk.world"
+}
