@@ -1,0 +1,70 @@
+# Production server
+Host lynkmct.hq.lynk.world
+  ForwardAgent yes
+
+# Dev server
+Host lynkmct-dev.hq.lynk.world
+  ForwardAgent yes
+
+# Lynk_5/LT1 Flatsat
+Host fs.lt1
+  HostName lynk05flatsat.hq.lynk.world
+  user lab
+  ForwardAgent yes
+
+Host fs.lt1.*
+  user pi
+  ProxyJump fs.lt1
+
+Host fs.lt1.fc1
+  HostName FC1
+
+Host fs.lt1.pc1
+  HostName PC1
+
+Host fs.lt1.pc2
+  HostName PC2
+
+Host fs.lt1.st1
+  HostName ST1
+
+# LT4 Flatsat
+Host fs.lt4
+  HostName lynk07flatsat.hq.lynk.world
+  user lab
+  ForwardAgent yes
+
+Host fs.lt4.*
+  user pi
+  ProxyJump fs.lt4
+
+Host fs.lt4.fc1
+  HostName FC1
+
+Host fs.lt4.pc1
+  HostName PC1
+
+Host fs.lt4.pc2
+  HostName PC2
+
+Host fs.lt4.st1
+  HostName ST1
+
+# LT6 Flatsat
+Host fs.lt6
+  HostName lynk09flatsat.hq.lynk.world
+  user lab
+  ForwardAgent yes
+
+Host fs.lt6.*
+  user pi
+  ProxyJump fs.lt6
+
+Host fs.lt6.fc1
+  HostName FC1
+
+# OpenC3 VM
+Host vm.openc3
+  HostName 10.0.240.248
+  user lab
+  ForwardAgent yes
