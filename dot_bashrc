@@ -108,3 +108,4 @@ fi
 
 # Lynk
 [ -f .bashrc_lynk ] && . .bashrc_lynk
+PATH="$HOME/.local/bin:$PATH"
